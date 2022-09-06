@@ -1,0 +1,29 @@
+.header, .footer {
+  background-color: #1F2937;
+}
+
+.awesome, .logo {
+  font-family: sans-serif;
+  color: #f9faf8;
+}
+
+.secondary {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.logo {
+  font-size: 24px;
+}
+
+.awesome {
+  font-size: 48px;
+}
+
+.placeholder {
+  background-color: #e5e7eb;
+}
+
+a {
+  color: #f9faf8;
+}
