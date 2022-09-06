@@ -27,3 +27,26 @@
 a {
   color: #f9faf8;
 }
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+}
+ 
+.topheader, .subheader {
+  display: flex;
+}
+
+.topheader {
+  justify-content: space-between;
+}
+
+.links_secondary {
+  display: flex;
+  
+}
