@@ -6,6 +6,7 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  background-color: #f9faf8;
 }
 
 .header, .footer {
@@ -88,4 +89,49 @@ button {
 
 li {
   padding-left: 24px;
+}
+
+.random {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.four {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 18%;
+  margin-right: 18%;
+}
+
+.information {
+  font-size: 36px;
+  font-weight: 700;
+  color: #1f2937;
+  margin-bottom: 2%;
+}
+
+button.image {
+  background-color: #f9faf8;
+  border: 4px solid #3882f6;
+  border-radius: 12px;
+  padding: 60px 60px;
+}
+
+.illustration {
+  display: flex;
+  flex-direction: column;
+  align-items: center
+  flex-wrap: wrap;
+  margin: 3%;
+}
+
+.descrip {
+  display: flex;
+  flex-flow: row wrap;
+  text-align: center;
 }
