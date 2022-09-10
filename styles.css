@@ -2,6 +2,10 @@
 
 body {
   font-family: Roboto, sans-serif;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .header, .footer {
@@ -13,49 +17,75 @@ body {
   color: #f9faf8;
 }
 
-.secondary {
+.text_secondary {
   font-size: 18px;
   color: #e5e7eb;
+  flex-wrap: wrap;
 }
 
 .logo {
   font-size: 24px;
+  justify-content: flex-start;
 }
 
 .awesome {
   font-size: 48px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  flex: wrap;
 }
 
-.placeholder {
-  background-color: #e5e7eb;
-}
-
-a {
+a, button {
   color: #f9faf8;
 }
 
-body {
+.links_secondary {
+  display: flex;
+  list-style: none;
+}
+
+button {
+  background-color: #3882f6;
+  border: #3882f6;
+  border-radius: 4px;
+  padding: 6px 16px;
+}
+
+.header {
   display: flex;
   flex-direction: column;
 }
 
-ul {
-  list-style: none;
-  display: flex;
-}
- 
 .topheader, .subheader {
   display: flex;
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-bottom: 5%;
 }
 
 .topheader {
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-between;
   align-items: baseline;
-}
-.links_secondary {
-  display: flex;
-  
+  justify-content: space-between;
 }
 
+.subheader {
+  align-items: flex-stretch;
+  justify-content: flex-stretch;
+}
+
+.hero {
+  max-width: 50%;
+  padding-right: 5%;
+}
+
+.placeholder {
+  background-color: #e5e7eb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 50%;
+}
+
+li {
+  padding-left: 24px;
+}
