@@ -125,7 +125,7 @@ button.image {
 .illustration {
   display: flex;
   flex-direction: column;
-  align-items: center
+  align-items: center;
   flex-wrap: wrap;
   margin: 3%;
 }
@@ -134,4 +134,28 @@ button.image {
   display: flex;
   flex-flow: row wrap;
   text-align: center;
+}
+
+.quote {
+  background-color: #E5E7EB;
+  display: flex;
+  flex-direction: column;
+}
+
+.testimonial, .thor {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.testimonial {
+  font-style: italic;
+  font-size: 36px;
+  margin-top: 5%;
+}
+
+.thor {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-bottom: 5%;
 }
